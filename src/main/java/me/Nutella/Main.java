@@ -9,7 +9,7 @@ import javax.security.auth.login.LoginException;
 public class Main {
     public static void main(String[] args) throws LoginException, InterruptedException {
 
-        JDA bot = JDABuilder.createDefault("token")
+        JDA bot = JDABuilder.createDefault("ODM0NTU3MzMyNzk1OTQ5MDk2.GvNziM.A5CeQhx26Z7CV13owg4oWphx5Kng-qqHfm4ab4")
                 .setActivity(Activity.playing("Nut Ranked"))
                 .addEventListeners(new Commands(),new ModalListeners())
                 .build().awaitReady();
