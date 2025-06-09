@@ -1,6 +1,7 @@
 # Ranked Hypixel CSGO Bot
 This Discord bot allows the input of stats in a 5v5 format. The stats of users are tracked and can be accessed through stat commands.
-![image](https://github.com/user-attachments/assets/63da7331-0cea-4427-8a34-fa1fcddfab31) ![image](https://github.com/user-attachments/assets/6892212b-8cf3-4195-b49d-7fa71df03633)
+![image](https://github.com/user-attachments/assets/63da7331-0cea-4427-8a34-fa1fcddfab31) ![image](https://github.com/user-attachments/assets/d5f90783-7641-42bd-ab3d-0e618347c385)
+
 
 
 
