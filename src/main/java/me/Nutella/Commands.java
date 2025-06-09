@@ -51,7 +51,7 @@ public class Commands extends ListenerAdapter {
             EmbedBuilder eb = new EmbedBuilder();
             eb.setTitle("Nut Ranked Bot", null);
             eb.setColor(new Color(137, 207, 240));
-            eb.setFooter("Nutting is Fun");
+            eb.setFooter("Nut Ranked is Fun");
             eb.setThumbnail("https://i.ytimg.com/vi/X_t_VJR0ZTI/maxresdefault.jpg");
             eb.addField("Commands:", "!r (player) - Displays the rank, k/d, & win percentage of player.\n" +
                     "!lb (page) - Displays the specified page of the Elo LB.\n" +
@@ -118,7 +118,7 @@ public class Commands extends ListenerAdapter {
         } else if (message[0].equalsIgnoreCase("!clearLb")) {
             Leaderboard lb = new Leaderboard();
             if (message.length == 1) {
-            } else if (message[1].equals("NuttySis0318")) {
+            } else if (message[1].equals("temp123")) {
                 try {
                     lb.clearLeaderboard();
                     event.getChannel().sendMessage("Leaderboard cleared!").queue();
@@ -129,16 +129,7 @@ public class Commands extends ListenerAdapter {
                 event.getChannel().sendMessage("Incorrect Password!").queue();
             }
 
-        } else if (message[0].equalsIgnoreCase("!miyagi")) {
-            event.getChannel().sendMessage("Underage Nut Ranked Worker.").queue();
-
-        }else if(message[0].equalsIgnoreCase("!brenna")) {
-            event.getChannel().sendMessage("eat ass smoke grass sled fast").queue();
-
-        }else if(message[0].equalsIgnoreCase("!blue")){
-            event.getChannel().sendMessage("YOOOOO WASSS POPPIN!!!").queue();
-
-        }else if(message[0].equalsIgnoreCase("!staffList")||message[0].equalsIgnoreCase("!sl")){
+        } else if(message[0].equalsIgnoreCase("!staffList")||message[0].equalsIgnoreCase("!sl")){
             EmbedBuilder eb = new EmbedBuilder();
             eb.setTitle("Nut Ranked Staff List", null);
             eb.setColor(new Color(137, 207, 240));
